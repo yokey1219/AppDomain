@@ -8,6 +8,7 @@ public class DeviceInfo {
 	public Date registerat;
 	public Date lastlogin;
 	public String lastip;
+	public int workmode;  //0-初始模式,1-工程模式,2-工作模式
 	public int state;//0-新状态；1-正常工作；2-低电量；3-离线；4-异常；5-故障；
 	public int getDeviceid() {
 		return deviceid;
@@ -38,6 +39,12 @@ public class DeviceInfo {
 	}
 	public void setLastip(String lastip) {
 		this.lastip = lastip;
+	}
+	public int getWorkmode() {
+		return workmode;
+	}
+	public void setWorkmode(int workmode) {
+		this.workmode = workmode;
 	}
 	public int getState() {
 		return state;

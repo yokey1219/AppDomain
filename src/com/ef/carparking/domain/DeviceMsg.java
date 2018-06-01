@@ -113,9 +113,11 @@ public class DeviceMsg {
 
 
 	public static final int CMDID_LOGIN=0;
-	public static final int CMDID_BINDPARKING=1;
+	public static final int CMDID_STATESYNC=1;
 	public static final int CMDID_REPORTCARPARKING=2;
 	public static final int CMDID_REPORTSTATUS=3;
+	public static final int CMDID_QUERYMODE=4;
+	
 	
 	protected static final int MINLEN=10;
 	
